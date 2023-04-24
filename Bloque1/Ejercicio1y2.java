@@ -80,8 +80,8 @@ public class Ejercicio1y2 {
             if (NIF.length != 9) {
                 return false;
             } else {
-                String letrasMayus = "ABCDEFGHIJKLMNOPQRST";
-                String nums = "012345678";
+                String letrasMayus = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                String nums = "0123456789";
                 int totalNums = 0;
                 //Bucle anidado para comparar los ocho primeros elementos del array para ver si se encuentran en el String "nums"
                 for (int i = 0; i < NIF.length -1; i++) {
